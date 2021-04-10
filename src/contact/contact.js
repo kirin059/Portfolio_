@@ -40,3 +40,9 @@ btn.addEventListener('click', e => {
     //console.log(e.target)
     modal.style.display = 'block';
 })
+
+const closeBtn = document.querySelector('.close_btn')
+
+closeBtn.addEventListener('click', e => {
+    modal.style.display = 'none'
+})

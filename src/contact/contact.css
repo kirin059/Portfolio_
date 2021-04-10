@@ -95,6 +95,8 @@
   right: 10px;
   border: none;
   font-size: 23px;
+  cursor: pointer;
+  outline: none;
 }
 
 form {
