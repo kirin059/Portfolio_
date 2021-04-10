@@ -65,11 +65,32 @@
     left: calc(50% - 175px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 350px;
     height: 400px;
-    padding: 40px;
+    padding: 20px;
     background: #fff;
     color: #000;
+}
+
+.title {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+}
+
+.modal_content button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  font-size: 23px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
