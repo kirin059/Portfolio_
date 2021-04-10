@@ -1,5 +1,7 @@
 'use strict';
 
+
+// button ripple effect
 const buttons = document.querySelectorAll('#contact_btn')
 
 buttons.forEach(button => {
@@ -28,4 +30,13 @@ buttons.forEach(button => {
 
         setTimeout(() => circle.remove(), 500)
     })
+})
+
+// modal
+const btn = document.getElementById('contact_btn');
+const modal = document.querySelector('.modal_bg')
+
+btn.addEventListener('click', e => {
+    //console.log(e.target)
+    modal.style.display = 'block';
 })
