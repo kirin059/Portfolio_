@@ -8,6 +8,9 @@
     <title>Document</title>
     <link href="../main/main.css" rel="stylesheet" />
     <link href="./contact.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
 </head>
 
 <body>
@@ -28,6 +31,30 @@
     <div class="btn_box">
         <button id="contact_btn">Contact Me</button>
     </div>
+
+    <!-- modal -->
+    <div class="modal_bg">
+        <div class="modal_content">
+            <h1>Contact info</h1>
+            <form>
+                <label for="name">Name</label>
+                <input id="name" placeholder="이새봄" />
+
+                <label for="phone">Phone</label>
+                <input id="phone" placeholder="010-9152-5192" />
+
+                <label for="email">E-mail</label>
+                <input id="email" placeholder="boma91@gmail.com" />
+            </form>
+            <div class="link">
+                <i class="fab fa-github-square"></i>
+                <i class="fab fa-blogger"></i>
+            </div>
+        </div>
+    </div>
+
+
+
     <script src="../main/main.js"></script>
     <script src="./contact.js"></script>
 </body>
