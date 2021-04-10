@@ -1,9 +1,10 @@
+// nav toggle
 const toggle = document.getElementById('toggle')
 const nav = document.getElementById('nav')
 
 toggle.addEventListener('click', () => nav.classList.toggle('active'))
 
-
+// auto-text
 const textEl = document.getElementById('text')
 const text = 'I always ❤ challenging new things!'
 
