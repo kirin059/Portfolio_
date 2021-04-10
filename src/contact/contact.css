@@ -85,7 +85,9 @@
 
 .title::after {
   content: '';
-  background-color: green;
+  display: block;
+  width: 250px;
+  padding: 8px;
   border-bottom: 1px solid #000;
 }
 
