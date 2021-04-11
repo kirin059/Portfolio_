@@ -12,7 +12,9 @@ counters.forEach(counter => {
         const increment = target / 120000
 
         if (c < target) {
-            counter.innerText = `${Math.ceil(c + increment)}`
+            let text = `${Math.ceil(c + increment)}`
+
+            counter.innerText = text;
             setTimeout(updateCounter, 3)
         }
 

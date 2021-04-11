@@ -1,13 +1,14 @@
 main {
     position: relative ;
     top: 80px;
-    left: 20%;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(188, 178, 196);
-    width: 50%;
+    width: 100vw;
     height: 30%;
+    margin: 30px auto;
 }
 
 .counter-container {
@@ -34,21 +35,32 @@ main {
 }
 
 .fa-html5 {
-    color: red;
+    color: #E85D25;
 }
 
 .fa-css3-alt {
-    color: blue;
+    color: #2997F0;
 }
 
 .fa-js {
-    color: yellow;
+    color: #EFD81D;
 }
 
 .fa-react {
-    color: lightskyblue;
+    color: #61DAFB;
 }
 
 .fa-sass {
-    color: rgb(238, 22, 191);
+    color: #BF4080;
+}
+
+.data-target {
+    font-weight: 900;
+}
+
+.desc {
+    margin-top: 5px;
+    font-weight: 1100;
+    font-size: 3px;
+    color: grey;
 }
