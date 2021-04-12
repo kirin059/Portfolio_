@@ -36,10 +36,12 @@ buttons.forEach(button => {
 const btn = document.getElementById('contact_btn');
 const modal = document.querySelector('.modal_bg')
 
-btn.addEventListener('click', e => {
-    //console.log(e.target)
-    modal.style.display = 'block';
+btn.addEventListener('click', function () {
+    setTimeout(function () {
+        modal.style.display = 'block';
+    }, 500)
 })
+
 
 const closeBtn = document.querySelector('.close_btn')
 
