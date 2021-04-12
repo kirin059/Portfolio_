@@ -116,3 +116,20 @@ nav {
       text-align: center;
       font-weight: 900;
   }
+
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    background-image: url('./face_image.PNG');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
